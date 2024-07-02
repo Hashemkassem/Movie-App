@@ -3,10 +3,13 @@
 A new Flutter project.
 
 Key Features
-1. Movie Listings:
+1. Movie and Tv Listings:
    - Popular Movies: Displays a list of popular movies fetched from an API.
    - Top Rated Movies: Shows top-rated movies.
    - Upcoming Movies: Lists upcoming movie releases.
+   - Popular Tv: Displays a list of popular Tv fetched from an API.
+   - Top Rated Tv: Shows top-rated Tv.
+   - Now Airing Tv: Lists Now Airing Tv releases.
 
 2. Movie Details:
    - Synopsis: Detailed plot summary.
@@ -15,21 +18,31 @@ Key Features
    - Trailers: Embedded video trailers.
 
 3. Search Functionality:
-   - Search Movies: Allows users to search for movies by title.
+   - Search Movies: Allows users to search for movies by title.\
+     
    \\\\\\\\\\not done yet
    - Filter and Sort: Filter results by genre, release date, or rating.
    //////////
 
 \\\\\\not done yet
+
 4. User Authentication:
    - Sign Up / Log In: User registration and login functionalities.
    - User Profiles: Personalize user experience with profiles, watchlists, and favorites.
+   
 ///////////
 5. Favorites and Watchlists:
 \\\\\\\\\\not done yet
    - Add to Watchlist: Users can add movies to their watchlist.
 ///////////
    - Favorites: Mark movies as favorites for quick access
+
+Architecture
+- Data Layer: Handles API calls to fetch movie data.
+- Repository Layer: Abstracts data sources, providing a clean API for the BLoC components.
+- BLoC Layer: Manages the state and business logic.
+- Presentation Layer: Flutter widgets that render the UI based on the state provided by the BLoC.
+
 
 ## Getting Started
 
