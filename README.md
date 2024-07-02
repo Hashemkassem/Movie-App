@@ -1,4 +1,5 @@
 # movie_app
+![media](https://github.com/Hashemkassem/Movie-App/assets/87801333/0e95a20b-3af8-4ef4-b0c0-1f89091d86ed)
 
 A new Flutter project.
 
@@ -43,7 +44,6 @@ Architecture
 - Repository Layer: Abstracts data sources, providing a clean API for the BLoC components.
 - BLoC Layer: Manages the state and business logic.
 - Presentation Layer: Flutter widgets that render the UI based on the state provided by the BLoC.
-.![media](https://github.com/Hashemkassem/Movie-App/assets/87801333/0e95a20b-3af8-4ef4-b0c0-1f89091d86ed)
 
 
 ## Getting Started
